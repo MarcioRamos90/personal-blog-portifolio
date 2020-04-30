@@ -1,14 +1,15 @@
 import React from 'react';
-import Home from './components/screens/Home';
+import Home from './components/screens/Home'
+import './i18n';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Home />
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <Home />
+            </header>
+        </div>
+    );
 }
 
 export default App;
