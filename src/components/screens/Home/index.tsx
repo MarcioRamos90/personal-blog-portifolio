@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from './styled';
-import MenuBar from '../../shared/MenuBar'
+import MenuBar from 'components/shared/MenuBar'
 
 export default function Home() {
     return (
